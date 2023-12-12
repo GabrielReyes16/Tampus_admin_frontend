@@ -1,0 +1,12 @@
+
+Qjavascript:S1128")Remove this unused import of 'Component'.(ƒÈİêøÿÿÿÿ8ñÛ¯íÅ1
+Mjavascript:S1128"+Remove this unused import of 'AuthContext'.(Úÿl8ñÛ¯íÅ1
+Sjavascript:S1128"+Remove this unused import of 'FixedPlugin'.(ˆüãúÿÿÿÿ8ñÛ¯íÅ1
+ajavascript:S1481"9Remove the declaration of the unused 'setImage' variable.(¶Í¸ƒÿÿÿÿÿ8ñÛ¯íÅ1
+^javascript:S1854"6Remove this useless assignment to variable "setImage".(¶Í¸ƒÿÿÿÿÿ8ñÛ¯íÅ1
+ajavascript:S1481"9Remove the declaration of the unused 'setColor' variable.(Æ…•Çûÿÿÿÿ8ñÛ¯íÅ1
+^javascript:S1854"6Remove this useless assignment to variable "setColor".(Æ…•Çûÿÿÿÿ8ñÛ¯íÅ1
+djavascript:S1481"<Remove the declaration of the unused 'setHasImage' variable.(öâ—³üÿÿÿÿ8ñÛ¯íÅ1
+ajavascript:S1854"9Remove this useless assignment to variable "setHasImage".(öâ—³üÿÿÿÿ8ñÛ¯íÅ1
+Ajavascript:S6479"Do not use Array index in keys(÷ÿã¶8ñÛ¯íÅ1
+Ljavascript:S3504+")Unexpected var, use let or const instead.(Åİ¸8òÛ¯íÅ1

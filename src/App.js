@@ -1,24 +1,28 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import PrivateRoute from './utils/PrivateRoute';
+import AuthContext, { AuthProvider } from './context/AuthContext';
+import Registerpage from './views/Registerpage';
+import Loginpage from './views/Loginpage';
+import Dashboard from './views/Dashboard';
+import Anothernav from './views/Anothernav';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+      <Router>
+        <AuthProvider>
+          <AuthContext.Consumer>
+            {({ isAuthenticated }) => (
+                isAuthenticated && <Anothernav />
+            )}
+          </AuthContext.Consumer>
+          <Switch>
+            <PrivateRoute component={Dashboard} path="/dashboard" exact />
+            <Route component={Loginpage} path="/" />
+            <Route component={Registerpage} path="/register" exact />
+          </Switch>
+        </AuthProvider>
+      </Router>
   );
 }
 

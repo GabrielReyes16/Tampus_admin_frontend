@@ -1,0 +1,25 @@
+
+Ljavascript:S1128")Remove this unused import of 'Component'.(¯¡Ñ8ç©îíÅ1
+\javascript:S1481"4Remove the declaration of the unused 'res' variable.(û¶Æ„ıÿÿÿÿ8ç©îíÅ1
+Yjavascript:S1854"1Remove this useless assignment to variable "res".(û¶Æ„ıÿÿÿÿ8ç©îíÅ1
+_javascript:S1481"7Remove the declaration of the unused 'setRes' variable.(û¶Æ„ıÿÿÿÿ8ç©îíÅ1
+\javascript:S1854"4Remove this useless assignment to variable "setRes".(û¶Æ„ıÿÿÿÿ8ç©îíÅ1
+\javascript:S1481"4Remove the declaration of the unused 'api' variable.(³ÿ¾³ıÿÿÿÿ8ç©îíÅ1
+Yjavascript:S1854"1Remove this useless assignment to variable "api".(³ÿ¾³ıÿÿÿÿ8ç©îíÅ1
+]javascript:S1481"5Remove the declaration of the unused 'user' variable.(Á’ÛÅşÿÿÿÿ8ç©îíÅ1
+Zjavascript:S1854"2Remove this useless assignment to variable "user".(Á’ÛÅşÿÿÿÿ8ç©îíÅ1
+Kjavascript:S3504")Unexpected var, use let or const instead.(î®ÎD8ç©îíÅ1
+Zjavascript:S1481"8Remove the declaration of the unused 'user_id' variable.(î®ÎD8ç©îíÅ1
+Wjavascript:S1854"5Remove this useless assignment to variable "user_id".(î®ÎD8ç©îíÅ1
+Kjavascript:S3504")Unexpected var, use let or const instead.(ëŸÂ68ç©îíÅ1
+€javascript:S2392"^Consider moving declaration of 'username' as it is referenced outside current binding context.(ëŸÂ68ç©îíÅ1
+Ljavascript:S3504")Unexpected var, use let or const instead.(ü®©†8ç©îíÅ1
+]javascript:S1481":Remove the declaration of the unused 'full_name' variable.(ü®©†8ç©îíÅ1
+Zjavascript:S1854"7Remove this useless assignment to variable "full_name".(ü®©†8ç©îíÅ1
+Ljavascript:S3504")Unexpected var, use let or const instead.(İ®³8ç©îíÅ1
+Yjavascript:S1481"6Remove the declaration of the unused 'image' variable.(İ®³8è©îíÅ1
+Vjavascript:S1854"3Remove this useless assignment to variable "image".(İ®³8è©îíÅ1
+Qjavascript:S3504")Unexpected var, use let or const instead.(‡Ä…ÿÿÿÿÿ8è©îíÅ1
+]javascript:S6757!"5Stateless functional components should not use `this`(¥æ¬¥ùÿÿÿÿ8è©îíÅ1
+tjavascript:S4138("LExpected a `for-of` loop instead of a `for` loop with this simple iteration.(âò´Îûÿÿÿÿ8è©îíÅ1
+©javascript:S6844—"ÿThe href attribute is required for an anchor to be keyboard accessible. Provide a valid, navigable address as the href value. If you cannot provide an href, but still need the element to resemble a link, use a button and change it with appropriate styles.(¿–†¿şÿÿÿÿ8è©îíÅ1
