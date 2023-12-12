@@ -1,0 +1,38 @@
+
+Mjavascript:S1128"%Remove this unused import of 'Badge'.(Î¾áùÿÿÿÿ8×ã¬îÅ1
+Njavascript:S1128"&Remove this unused import of 'Navbar'.(ùØâ˜ûÿÿÿÿ8Øã¬îÅ1
+Kjavascript:S1128	"#Remove this unused import of 'Nav'.(Óğÿÿÿÿÿ8Øã¬îÅ1
+\javascript:S1481"4Remove the declaration of the unused 'res' variable.(û¶Æ„ıÿÿÿÿ8Øã¬îÅ1
+Yjavascript:S1854"1Remove this useless assignment to variable "res".(û¶Æ„ıÿÿÿÿ8Øã¬îÅ1
+_javascript:S1481"7Remove the declaration of the unused 'setRes' variable.(û¶Æ„ıÿÿÿÿ8Øã¬îÅ1
+\javascript:S1854"4Remove this useless assignment to variable "setRes".(û¶Æ„ıÿÿÿÿ8Øã¬îÅ1
+\javascript:S1481"4Remove the declaration of the unused 'api' variable.(³ÿ¾³ıÿÿÿÿ8Øã¬îÅ1
+Yjavascript:S1854"1Remove this useless assignment to variable "api".(³ÿ¾³ıÿÿÿÿ8Øã¬îÅ1
+Kjavascript:S3504")Unexpected var, use let or const instead.(î®ÎD8Øã¬îÅ1
+Zjavascript:S1481"8Remove the declaration of the unused 'user_id' variable.(î®ÎD8Øã¬îÅ1
+Wjavascript:S1854"5Remove this useless assignment to variable "user_id".(î®ÎD8Øã¬îÅ1
+Kjavascript:S3504")Unexpected var, use let or const instead.(ëŸÂ68Øã¬îÅ1
+[javascript:S1481"9Remove the declaration of the unused 'username' variable.(ëŸÂ68Øã¬îÅ1
+Xjavascript:S1854"6Remove this useless assignment to variable "username".(ëŸÂ68Øã¬îÅ1
+Ljavascript:S3504")Unexpected var, use let or const instead.(ü®©†8Øã¬îÅ1
+]javascript:S1481":Remove the declaration of the unused 'full_name' variable.(ü®©†8Øã¬îÅ1
+Zjavascript:S1854"7Remove this useless assignment to variable "full_name".(ü®©†8Øã¬îÅ1
+Ljavascript:S3504")Unexpected var, use let or const instead.(İ®³8Øã¬îÅ1
+Yjavascript:S1481"6Remove the declaration of the unused 'image' variable.(İ®³8Úë³îÅ1
+Vjavascript:S1854"3Remove this useless assignment to variable "image".(İ®³8Øã¬îÅ1
+Rjavascript:S67729"*Ambiguous spacing after previous element i(â´ÂÍúÿÿÿÿ8Øã¬îÅ1
+Mjavascript:S6772S"*Ambiguous spacing after previous element i(™ó8Øã¬îÅ1
+Rjavascript:S6772m"*Ambiguous spacing after previous element i(„€ş¸øÿÿÿÿ8Øã¬îÅ1
+Sjavascript:S6772‡"*Ambiguous spacing after previous element i(â´ÂÍúÿÿÿÿ8Øã¬îÅ1
+Sjavascript:S6772Ë"*Ambiguous spacing after previous element i(–†’¦ıÿÿÿÿ8Øã¬îÅ1
+Sjavascript:S6772Ì"*Ambiguous spacing after previous element i(²‡İòüÿÿÿÿ8Øã¬îÅ1
+Sjavascript:S6772Í"*Ambiguous spacing after previous element i(ÄÏ ²ÿÿÿÿÿ8Øã¬îÅ1
+Njavascript:S6772Ò"*Ambiguous spacing after previous element i(€ô¨À8Øã¬îÅ1
+Sjavascript:S6772ì"*Ambiguous spacing after previous element i(–†’¦ıÿÿÿÿ8Øã¬îÅ1
+Sjavascript:S6772í"*Ambiguous spacing after previous element i(²‡İòüÿÿÿÿ8Ùã¬îÅ1
+Sjavascript:S6772î"*Ambiguous spacing after previous element i(Ëé°Ñşÿÿÿÿ8Ùã¬îÅ1
+Njavascript:S6772ó"*Ambiguous spacing after previous element i(®Ø÷8Ùã¬îÅ1
+Sjavascript:S6772Ì"*Ambiguous spacing after previous element i(–†’¦ıÿÿÿÿ8Ùã¬îÅ1
+Sjavascript:S6772Í"*Ambiguous spacing after previous element i(¥ï‰›øÿÿÿÿ8Ùã¬îÅ1
+Sjavascript:S6772Ò"*Ambiguous spacing after previous element i(ÙŠ­ùÿÿÿÿ8Ùã¬îÅ1
+Njavascript:S6772"*Ambiguous spacing after previous element i(öåÕ©8Ùã¬îÅ1

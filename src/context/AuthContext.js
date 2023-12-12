@@ -13,9 +13,9 @@ export const AuthProvider = ({ children }) => {
             ? JSON.parse(localStorage.getItem("authTokens"))
             : null
     );
-    
 
-    const [user, setUser] = useState(() => 
+
+    const [user, setUser] = useState(() =>
         localStorage.getItem("authTokens")
             ? jwt_decode(localStorage.getItem("authTokens"))
             : null
@@ -27,48 +27,56 @@ export const AuthProvider = ({ children }) => {
     const history = useHistory();
 
     const loginUser = async (email, password) => {
-        const response = await fetch("http://127.0.0.1:8000/tampus_admin/token/", {
-            method: "POST",
-            headers:{
-                "Content-Type":"application/json"
-            },
-            body: JSON.stringify({
-                email, password
-            })
-        })
-        const data = await response.json()
-        console.log(data);
+        try {
+            const response = await fetch("http://127.0.0.1:8000/tampus_admin/token/", {
+                method: "POST",
+                headers: {
+                    "Content-Type": "application/json",
+                },
+                body: JSON.stringify({
+                    email,
+                    password,
+                }),
+            });
 
-        if(response.status === 200){
-            console.log("Logged In");
-            setAuthTokens(data)
-            setUser(jwt_decode(data.access))
-            localStorage.setItem("authTokens", JSON.stringify(data))
-            history.push("/dashboard")
-            swal.fire({
-                title: "Login Successful",
-                icon: "success",
-                toast: true,
-                timer: 6000,
-                position: 'top-right',
-                timerProgressBar: true,
-                showConfirmButton: false,
-            })
+            const data = await response.json();
 
-        } else {    
-            console.log(response.status);
-            console.log("there was a server issue");
-            swal.fire({
-                title: "Username or password does not exists",
-                icon: "error",
-                toast: true,
-                timer: 6000,
-                position: 'top-right',
-                timerProgressBar: true,
-                showConfirmButton: false,
-            })
+            if (response.status === 200) {
+                console.log("Logged In");
+                setAuthTokens(data);
+                // Accede al nombre de usuario directamente desde los datos decodificados
+                const decodedUser = jwt_decode(data.access);
+                setUser(decodedUser);
+                localStorage.setItem("authTokens", JSON.stringify(data));
+                history.push("/admin/dashboard");
+
+                // Utiliza el nombre de usuario desde los datos decodificados para el mensaje
+                swal.fire({
+                    title: "Bienvenido, " + decodedUser.username,
+                    icon: "success",
+                    toast: true,
+                    timer: 6000,
+                    position: "top-right",
+                    timerProgressBar: true,
+                    showConfirmButton: false,
+                });
+            } else {
+                console.log(response.status);
+                console.log("there was a server issue");
+                swal.fire({
+                    title: "Username or password does not exist",
+                    icon: "error",
+                    toast: true,
+                    timer: 6000,
+                    position: "top-right",
+                    timerProgressBar: true,
+                    showConfirmButton: false,
+                });
+            }
+        } catch (error) {
+            console.error("An error occurred:", error);
         }
-    }
+    };
 
     const registerUser = async (email, username, password, password2) => {
         const response = await fetch("http://127.0.0.1:8000/tampus_admin/register/", {
@@ -123,7 +131,7 @@ export const AuthProvider = ({ children }) => {
     }
 
     const contextData = {
-        user, 
+        user,
         setUser,
         authTokens,
         setAuthTokens,
